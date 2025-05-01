@@ -55,7 +55,7 @@ export default function App() {
           <div className='h-10 w-10 rounded-[100%] border-4 shadow-xl shadow-gray-600 flex justify-around text-2xl font-extrabold bg-neutral-100'> ' ' </div>
           <div className='h-94 w-96 max-md:h-74 max-md:w-76 border-3 rounded-[100%] shadow-xl shadow-gray-600 bg-black'> 
             <div className='h-92 w-92 max-md:h-72 max-md:w-72 border-4 rounded-[100%] flex p-8 items-center justify-center absolute z-10 bg-slate-300'>
-              <div className='text-xl font-semibold border-3 p-2 w-2/3 flex gap-8 shadow-sm shadow-gray-600 bg-neutral-100'>Timer : <span>{time/1000}</span></div>
+              <div className='text-xl font-semibold border-3 p-2 w-2/3 flex gap-6 max-md:gap-2 max-md:text-lg shadow-sm shadow-gray-600 bg-neutral-100'>Timer :<span>{time/1000}</span></div>
             </div> 
           </div>
 
